@@ -59,14 +59,14 @@ toggleEnt.addComponent(new OnPointerDown(()=>{
     case 0:
       SCENE_MGR.changeToScene(galleryGroup1)
       
-      toggleTextShape.value = "Change To\nScene 2"
+      toggleTextShape.value = "Go inside Apartment"
       toggleEnt.getComponent(OnPointerDown).hoverText = toggleTextShape.value
       break;
     case 1:
       SCENE_MGR.changeToScene(galleryGroup4)
       galleryGroup4.movePlayerHere()
 
-      toggleTextShape.value = "Change To\nScene 1"
+      toggleTextShape.value = "Go out"
       toggleEnt.getComponent(OnPointerDown).hoverText = toggleTextShape.value
       
       break;        
